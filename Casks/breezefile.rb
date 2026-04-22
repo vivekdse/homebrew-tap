@@ -1,9 +1,9 @@
 cask "breezefile" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.1"
-  sha256 arm:   "07bf5b57999441eb0f120630a0d53b6ec6d04b0ca7c3f0b6663f307a50cb4fbf",
-         intel: "b93eff22ed6f9de5b1d2dceae9cb3872a072452113cbe4d2a57539486de6612f"
+  version "0.1.2"
+  sha256 arm:   "53c606285f9c2782fccef109997ecd4692d37b0807be1e36329cc3828e7d9a39",
+         intel: "9c7ec4ec5975b7660b90de5e7d102d3cff3d9991b8fb30799d03a11d2507736e"
 
   url "https://github.com/vivekdse/breezefile/releases/download/v#{version}/Breezefile-#{version}-#{arch}.dmg"
   name "Breeze File"
